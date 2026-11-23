@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom glassmorphism utilities */
+.glass {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl shadow-glass;
+}
+
+.neon-red { @apply text-neon-red; }
+.neon-orange { @apply text-neon-orange; }
+.neon-purple { @apply text-neon-purple; }
